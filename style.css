@@ -2,19 +2,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Rubik:ital,wght@0,400;0,700;1,400&display=swap");
 
 :root {
-  --brand: #8246af;
-  --action: #251649;
+  --brand: #1c0c5e;
+  --action: #966ff3;
   --white: #ffffff;
-  --base-light: #cdb5df;
-  --base-dark: #0d0711;
-  --black: #111111;
+  --base-light: #b476e4;
+  --base-dark: #367bd6;
+  --black: #180f22;
 }
 
      /* CSS Reset */
 
      html {
        box-sizing: border-box;
-       font-size: 18px;
+       font-size: 20px;
        font-family: "Inter", sans-serif;
        color: var(--black);
        scroll-behavior: smooth;
@@ -32,7 +32,7 @@
      h4,
      h5,
      h6 {
-       font-family: "Rubik", sans-serif;
+       font-family: "Arial", sans-serif;
      }
 
      body,
@@ -90,14 +90,14 @@
      }
 
      .btn-primary:hover {
-       box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
+       box-shadow: 10px 5px 5px rgba(79, 10, 100, 0.2);
        transform: translateY(-4px);
      }
 
 
 
     .btn-primary:hover {
-    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 5px 5px rgba(194, 164, 236, 0.2);
     transform: translateY(-4px);
     }
 
