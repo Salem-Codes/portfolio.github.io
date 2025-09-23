@@ -2,20 +2,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Rubik:ital,wght@0,400;0,700;1,400&display=swap");
 
 :root {
-  --brand: #1c0c5e;
-  --action: #966ff3;
-  --white: #ffffff;
-  --base-light: #b476e4;
-  --base-dark: #367bd6;
-  --black: #180f22;
+  --brand: #d7cef9;
+  --action: #e8e2f4;
+  --white: #0f1014;
+  --base-light: #d7cef9;
+  --base-dark: #a359f1;
+  --black: #0c0613;
 }
-
+  
      /* CSS Reset */
 
      html {
        box-sizing: border-box;
-       font-size: 20px;
-       font-family: "Inter", sans-serif;
+       font-size: 18px;
+       font-family: "Inter", fantasy;
        color: var(--black);
        scroll-behavior: smooth;
      }
@@ -82,7 +82,7 @@
      .btn-primary {
        padding: 12px 16px;
        display: inline-block;
-       text-decoration: none;
+       text-decoration: rgb(213, 229, 243);
        color: var(--black);
        border-radius: 4px;
        background-color: var(--action);
@@ -97,13 +97,13 @@
 
 
     .btn-primary:hover {
-    box-shadow: 10px 5px 5px rgba(194, 164, 236, 0.2);
+    box-shadow: 10px 5px 5px rgba(23, 7, 45, 0.2);
     transform: translateY(-4px);
     }
 
      /* header */
      header .mobile-header {
-       padding: 16px;
+       padding: 20px;
      }
 
      header button {
@@ -227,11 +227,11 @@
 
      /* footer */
      .footer {
-       padding: 16px;
+       padding: 14px;
        text-align: center;
      }
 
     .socials-icon {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     }
